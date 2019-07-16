@@ -2,7 +2,7 @@ const Discord = require('discord.js'),
         client = new Discord.Client,
         prefix = "!";
 
-client.login("NjAwNTk4MzE3ODk4MDA2NTM0.XS2E5g.cDvOlL_Oq21P2a6PG0gcB-7gs28")
+client.login(process.env.TOKEN)
 
 client.on('ready', () => {
     console.log("je suis prêt !")
